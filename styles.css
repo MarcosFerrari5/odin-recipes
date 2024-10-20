@@ -1,0 +1,30 @@
+body {
+    background-color:lavender;
+}
+
+.title {
+    background-color: lightgray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+
+img {
+    height: auto;
+    width: 700px;
+}
+
+li {
+    font-size: 24px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
