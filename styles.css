@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color:lavender;
 }
@@ -7,11 +11,15 @@ body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 48px;
+    border: solid 3px black;
 }
 
 img {
     height: auto;
     width: 700px;
+    display: block;
+    border: solid 2px black;
+    margin: auto;
 }
 
 li {
