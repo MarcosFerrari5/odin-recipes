@@ -11,7 +11,8 @@ body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 48px;
-    border: solid 3px black;
+    font-style: italic;
+    border: inset 6px black;
 }
 
 img {
@@ -23,8 +24,20 @@ img {
 }
 
 .container {
+    height: auto;
+    width: 700px;
+    border: 6px inset lightgrey;
+    margin: 24px auto;
+    padding: 8px;
+    background-color: seashell;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    background-color: lightgray;
     display: inline-block;
-    border: 2px solid black;
+    border: 6px inset blanchedalmond;
     padding: 8px;
     width: 200px;
     margin: 0 auto;
